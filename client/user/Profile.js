@@ -16,7 +16,7 @@ import auth from './../auth/auth-helper'
 import {read} from './api-user.js'
 import {Redirect, Link} from 'react-router-dom'
 import FollowProfileButton from './../user/FollowProfileButton'
-import ProfileTabs from './ProfileTabs'
+import ProfileTabs from './../user/ProfileTabs'
 import {listByUser} from './../post/api-post.js'
 
 const useStyles = makeStyles(theme => ({
